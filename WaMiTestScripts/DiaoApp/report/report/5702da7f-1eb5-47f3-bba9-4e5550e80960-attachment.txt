@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第4条用例======================================>>
+测试标题: 获取藏品详情是否成功
+请求方式: post
+请求头:   {'accesstoken': '89c0ce045fc28c9568e36263545e7d56', 'timespan': '1660816818', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DDB061DB08A2044CBA1B5F520F38081D10A4AB8DFAFCE665FFA4C2651E1E97A8981E7E2FAB668575B92FE968A4EA9F3227A6496BEF012D4236CE199BCF45E32D98'}
+请求路径: http://110.80.137.11:8059/auction/detail
+传参方式： params
+请求内容: {"id": "531845522485585620", "addviewcount": 1}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"OK","code":"","data":{"uid":"411839911847526503","priceCutCount":0,"specifiedPrice":"1.00","securityDeposit":"1.00","dealPrice":"0.00","dealTick":0,"signUpCount":1,"viewCount":1,"tokenNum":"","delayTick":0,"isFocus":0,"realIncome":"0.00","topaySignUpOrder":"","otherPhone":"","payCountDown":0,"otherAddress":null,"otherMark":null,"id":"531845522485585620","num":"53673908","dataStatus":2,"auctionType":1,"auctionStartTick":1659619039,"auctionTick":1660828627,"endTick":1660828627,"startPrice":1.00,"maxPrice":3.00,"nowPrice":1.00,"auctionGoods":{"id":"524763213744060266","cid":"579246700726478200","classInfo":null,"goodsType":"1","mainNetNum":3,"mainNetName":"低傲","contractAddr":"0xB869E9BEF553030F3200D3eB9E049Ed4968D4584","goodsKey":"20630","goodsName":"藏","goodsInfo":"{\"video\":\"https://v2.cdwami.com:666/CMS/1/202206/video/20220617194811696.mp4\",\"images\":[\"https://v2.cdwami.com:666/CMS/1/202206/img/20220617194801848.jpg\"],\"tags\":[],\"detail\":\"<p><img src=\\\"https://v2.cdwami.com:666/CMS/1/202206/img/20220617194823278.jpg\\\"></p>\"}","deliveryTick":0,"source":1,"goodsProduct":{"pid":"579246700726478200","className":"低傲数藏","productInfo":"{\"video\":\"https://v2.cdwami.com:666/CMS/1/202206/video/20220617194811696.mp4\",\"images\":[\"https://v2.cdwami.com:666/CMS/1/202206/img/20220617194801848.jpg\"],\"tags\":[],\"detail\":\"<p><img src=\\\"https://v2.cdwami.com:666/CMS/1/202206/img/20220617194823278.jpg\\\"></p>\"}","totalCount":"0","authorId":"409735638338764801","authorName":"低傲","authorImg":"https://v2.cdwami.com:666/CMS/1/202206/img/20220617194729218.png","publisherName":"低傲","sellTick":"1655308800"}},"goodsSource":1,"sellerBzj":0.00,"countDown":11809,"buyerUid":"0","isInBid":"0","topuserid":null,"deliveryTime":0}}
+接口响应时长: 0.082155 s
+Http状态码: 200
+断言方式：不等于
+期望结果：0
+实际结果：[1.0]
+>>==============================第4条用例执行完毕=======================================>>

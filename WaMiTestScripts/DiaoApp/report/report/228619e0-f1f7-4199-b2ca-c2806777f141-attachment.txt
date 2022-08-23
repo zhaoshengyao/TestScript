@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第13条用例======================================>>
+测试标题: 获取藏品详情是否成功
+请求方式: post
+请求头:   {'accesstoken': '333fe179f2b1de4c418b7a1acf7c8969', 'timespan': '1661138315', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DB22D648E8E5B29660D2E9BD0C6FF9EAFE7381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/auction/detail
+传参方式： params
+请求内容: {"id": "598195827137757999", "addviewcount": 1}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"OK","code":"","data":{"uid":"410893688609177702","priceCutCount":0,"specifiedPrice":"2.00","securityDeposit":"3.00","dealPrice":"0.00","dealTick":0,"signUpCount":0,"viewCount":1,"tokenNum":"","delayTick":0,"isFocus":0,"realIncome":"0.00","topaySignUpOrder":"","otherPhone":"","payCountDown":0,"otherAddress":null,"otherMark":null,"id":"598195827137757999","num":"57903492","dataStatus":2,"auctionType":1,"auctionStartTick":1658963120,"auctionTick":1661619600,"endTick":1661619600,"startPrice":7.00,"maxPrice":21.00,"nowPrice":7.00,"auctionGoods":{"id":"411311037225107559","cid":"411158621955555330","classInfo":null,"goodsType":"1","mainNetNum":3,"mainNetName":"低傲","contractAddr":"0xbEDFe410Ea934Ffd6D6EE1937e6E93004e8ADc2e","goodsKey":"4234","goodsName":"万能券","goodsInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_06/D1654599217394_video.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_06/D1654597886183_img.png\"],\"detail\":\"<p><img src=\\\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_06/D1654597892086_detail.png\\\"></p>\",\"totalCount\":\"100000\",\"tags\":[\"\"]}","deliveryTick":0,"source":1,"goodsProduct":{"pid":"411158621955555330","className":"万能券","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_06/D1654599217394_video.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_06/D1654597886183_img.png\"],\"detail\":\"<p><img src=\\\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_06/D1654597892086_detail.png\\\"></p>\",\"totalCount\":\"100000\",\"tags\":[\"\"]}","totalCount":"100000","authorId":"409735638338764801","authorName":"低傲","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_05/D1653751067011_飞书20220528-231648.png","publisherName":"低傲","sellTick":"1655208480"}},"goodsSource":1,"sellerBzj":0.00,"countDown":481285,"buyerUid":"0","isInBid":"0","topuserid":null,"deliveryTime":0}}
+接口响应时长: 0.104196 s
+Http状态码: 200
+断言方式：不等于
+期望结果：0
+实际结果：[7.0]
+>>==============================第13条用例执行完毕=======================================>>

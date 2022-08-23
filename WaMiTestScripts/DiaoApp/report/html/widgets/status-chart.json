@@ -1,0 +1,101 @@
+[ {
+  "uid" : "2c01121ffa7d6886",
+  "name" : "账号为空，登录失败",
+  "time" : {
+    "start" : 1658998402736,
+    "stop" : 1658998402819,
+    "duration" : 83
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "53434ffe71588bda",
+  "name" : "账号密码正确，登录成功",
+  "time" : {
+    "start" : 1658998402161,
+    "stop" : 1658998402294,
+    "duration" : 133
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18654c2879d5ac05",
+  "name" : "查看我的商品",
+  "time" : {
+    "start" : 1658998402918,
+    "stop" : 1658998403025,
+    "duration" : 107
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb25270b9267c037",
+  "name" : "密码为空，登录失败",
+  "time" : {
+    "start" : 1658998402829,
+    "stop" : 1658998402909,
+    "duration" : 80
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf7f23357c3e94d7",
+  "name" : "获取拍卖列表",
+  "time" : {
+    "start" : 1658998403028,
+    "stop" : 1658998403115,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cdf57f5e4e83e14",
+  "name" : "搜索存在的商品",
+  "time" : {
+    "start" : 1658998403118,
+    "stop" : 1658998403202,
+    "duration" : 84
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6584102846a95f7",
+  "name" : "搜索不存在的商品",
+  "time" : {
+    "start" : 1658998403211,
+    "stop" : 1658998403296,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93bb6abb1de03a4f",
+  "name" : "账号、密码为空，登录失败",
+  "time" : {
+    "start" : 1658998402645,
+    "stop" : 1658998402726,
+    "duration" : 81
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6499b3f140ae82d2",
+  "name" : "密码错误，登录失败",
+  "time" : {
+    "start" : 1658998402297,
+    "stop" : 1658998402380,
+    "duration" : 83
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2c1681807750ee2",
+  "name" : "账号不存在，登录失败",
+  "time" : {
+    "start" : 1658998402555,
+    "stop" : 1658998402642,
+    "duration" : 87
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,197 @@
+{
+  "20d508128deaff48d95fc1a780266c50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf7f23357c3e94d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658998403028,
+        "stop" : 1658998403115,
+        "duration" : 87
+      }
+    } ]
+  },
+  "b32a23a780987222e72a0e35f0f2b725" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb25270b9267c037",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1658998402829,
+        "stop" : 1658998402909,
+        "duration" : 80
+      }
+    } ]
+  },
+  "01d421878f5e728eaa3dfc68c80c595d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c01121ffa7d6886",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1658998402736,
+        "stop" : 1658998402819,
+        "duration" : 83
+      }
+    } ]
+  },
+  "db290469336dceb2fe9a2f3a5e06b78a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53434ffe71588bda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658998402161,
+        "stop" : 1658998402294,
+        "duration" : 133
+      }
+    } ]
+  },
+  "4f20009d16bcf012f7a03eef85391d48" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18654c2879d5ac05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658998402918,
+        "stop" : 1658998403025,
+        "duration" : 107
+      }
+    } ]
+  },
+  "a2f8de0a636c83387662b5a549a93c8e" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7cdf57f5e4e83e14",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '返回数据格式与提取格式不一致，请检查返回数据是否正确！' == 2\n  +'返回数据格式与提取格式不一致，请检查返回数据是否正确！'\n  -2",
+      "time" : {
+        "start" : 1658998403118,
+        "stop" : 1658998403202,
+        "duration" : 84
+      }
+    } ]
+  },
+  "0c80b40062b357ba5308fc120cd47918" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2c1681807750ee2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658998402555,
+        "stop" : 1658998402642,
+        "duration" : 87
+      }
+    } ]
+  },
+  "9f0aae18966f08ec4cdd19b9ca0ecfc7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93bb6abb1de03a4f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "time" : {
+        "start" : 1658998402645,
+        "stop" : 1658998402726,
+        "duration" : 81
+      }
+    } ]
+  },
+  "baa12583d35718e75d60f37f07d13d40" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6584102846a95f7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1658998403211,
+        "stop" : 1658998403296,
+        "duration" : 85
+      }
+    } ]
+  },
+  "ef2f9b9741e3c84acc7bc882a54e60ed" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6499b3f140ae82d2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False != False\n +  where False = <model.http_model.http_model object at 0x00000177A0D78DF0>.assert_value",
+      "time" : {
+        "start" : 1658998402297,
+        "stop" : 1658998402380,
+        "duration" : 83
+      }
+    } ]
+  }
+}

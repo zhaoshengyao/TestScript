@@ -1,0 +1,127 @@
+{
+  "uid" : "d2c1681807750ee2",
+  "name" : "账号不存在，登录失败",
+  "fullName" : "case.test_httpRun.Test_case#test_send_http",
+  "historyId" : "0c80b40062b357ba5308fc120cd47918",
+  "time" : {
+    "start" : 1658998402555,
+    "stop" : 1658998402642,
+    "duration" : 87
+  },
+  "description" : "\n        :model:传入的数据对象\n        :param kwargs:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    :model:传入的数据对象\n    :param kwargs:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1658998402101,
+      "stop" : 1658998402160,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "xunit_setup_class_fixture_Test_case",
+    "time" : {
+      "start" : 1658998402160,
+      "stop" : 1658998402160,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        :model:传入的数据对象\n        :param kwargs:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ab0f18ac6b7bd82d",
+      "name" : "log",
+      "source" : "ab0f18ac6b7bd82d.txt",
+      "type" : "text/plain",
+      "size" : 919
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_Test_case::0",
+    "time" : {
+      "start" : 1658998403297,
+      "stop" : 1658998403319,
+      "duration" : 22
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_httpRun"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_case"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-0SNQ08G"
+  }, {
+    "name" : "thread",
+    "value" : "8660-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_httpRun"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "model",
+    "value" : "<model.http_model.http_model object at 0x00000177A0D78E50>"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d2c1681807750ee2.json",
+  "parameterValues" : [ "<model.http_model.http_model object at 0x00000177A0D78E50>" ]
+}

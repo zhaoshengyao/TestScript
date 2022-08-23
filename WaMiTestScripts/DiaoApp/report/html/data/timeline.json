@@ -1,0 +1,183 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-0SNQ08G",
+    "children" : [ {
+      "name" : "8660-MainThread",
+      "children" : [ {
+        "name" : "账号密码正确，登录成功",
+        "uid" : "53434ffe71588bda",
+        "parentUid" : "5b067d80f025ddd284bcf38a9657f8df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658998402161,
+          "stop" : 1658998402294,
+          "duration" : 133
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78DC0>" ]
+      }, {
+        "name" : "密码错误，登录失败",
+        "uid" : "6499b3f140ae82d2",
+        "parentUid" : "5b067d80f025ddd284bcf38a9657f8df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658998402297,
+          "stop" : 1658998402380,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78DF0>" ]
+      }, {
+        "name" : "查看我的商品",
+        "uid" : "18654c2879d5ac05",
+        "parentUid" : "5b067d80f025ddd284bcf38a9657f8df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658998402918,
+          "stop" : 1658998403025,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78F10>" ]
+      }, {
+        "name" : "账号、密码为空，登录失败",
+        "uid" : "93bb6abb1de03a4f",
+        "parentUid" : "5b067d80f025ddd284bcf38a9657f8df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658998402645,
+          "stop" : 1658998402726,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78E20>" ]
+      }, {
+        "name" : "搜索存在的商品",
+        "uid" : "7cdf57f5e4e83e14",
+        "parentUid" : "5b067d80f025ddd284bcf38a9657f8df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658998403118,
+          "stop" : 1658998403202,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177917C2C40>" ]
+      }, {
+        "name" : "密码为空，登录失败",
+        "uid" : "eb25270b9267c037",
+        "parentUid" : "5b067d80f025ddd284bcf38a9657f8df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658998402829,
+          "stop" : 1658998402909,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78EE0>" ]
+      }, {
+        "name" : "搜索不存在的商品",
+        "uid" : "6584102846a95f7",
+        "parentUid" : "5b067d80f025ddd284bcf38a9657f8df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658998403211,
+          "stop" : 1658998403296,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177917C2F70>" ]
+      }, {
+        "name" : "账号不存在，登录失败",
+        "uid" : "d2c1681807750ee2",
+        "parentUid" : "5b067d80f025ddd284bcf38a9657f8df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658998402555,
+          "stop" : 1658998402642,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78E50>" ]
+      }, {
+        "name" : "获取拍卖列表",
+        "uid" : "bf7f23357c3e94d7",
+        "parentUid" : "5b067d80f025ddd284bcf38a9657f8df",
+        "status" : "passed",
+        "time" : {
+          "start" : 1658998403028,
+          "stop" : 1658998403115,
+          "duration" : 87
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177917C2130>" ]
+      }, {
+        "name" : "账号为空，登录失败",
+        "uid" : "2c01121ffa7d6886",
+        "parentUid" : "5b067d80f025ddd284bcf38a9657f8df",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658998402736,
+          "stop" : 1658998402819,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78EB0>" ]
+      } ],
+      "uid" : "5b067d80f025ddd284bcf38a9657f8df"
+    } ],
+    "uid" : "a0a95f6fd159ca0bf8b2e9ad1049c8ae"
+  } ]
+}

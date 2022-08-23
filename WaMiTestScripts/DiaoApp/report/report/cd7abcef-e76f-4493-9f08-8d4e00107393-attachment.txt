@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第16条用例======================================>>
+测试标题: 新增有效地址是否成功
+请求方式: post
+请求头:   {'accesstoken': 'c3a71741bdb416faf4b6e56bab2f7ac4', 'timespan': '1661138321', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DB22D648E8E5B29660D2E9BD0C6FF9EAFE7381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/Users/AddEditAddress
+传参方式： json
+请求内容: {"userid": "0", "isdefualt": 1, "useraddress": "asddd", "addressname": "asddddda", "platform": "3"}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"操作成功","code":"","data":null}
+接口响应时长: 0.126381 s
+Http状态码: 200
+断言方式：相等
+期望结果：True
+实际结果：[True]
+>>==============================第16条用例执行完毕=======================================>>

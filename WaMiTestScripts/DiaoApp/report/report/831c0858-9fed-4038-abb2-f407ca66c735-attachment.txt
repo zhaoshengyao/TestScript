@@ -1,0 +1,18 @@
+ERROR    root:test_httpRun.py:162 assert False == True
+ +  where True = <DiaoApp.model.http_model.http_model object at 0x0000012A54907C10>.assert_value
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第10条用例======================================>>
+测试标题: 竞拍报名是否成功
+请求方式: post
+请求头:   {'accesstoken': '30cfbdc1e24108d6f58fc8e40b82b89d', 'timespan': '1660813097', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DDB061DB08A2044CBA1B5F520F38081D1026A630AC6C1F7C24AD0FEF27B821AF9E1E7E2FAB668575B92FE968A4EA9F3227A6496BEF012D4236CE199BCF45E32D98'}
+请求路径: http://110.80.137.11:8051/auction/SignUp
+传参方式： params
+请求内容: {"auctionid": "587685659757440496", "mainNetName": "\u6570\u5143meta", "receiveaddr": "asddd", "receivemark": "sdsadads"}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":false,"msg":"竞拍已结束或已被撤销","code":"-1","data":null}
+接口响应时长: 0.096836 s
+Http状态码: 200
+断言方式：相等
+期望结果：True
+实际结果：[False]
+>>==============================第10条用例执行完毕=======================================>>

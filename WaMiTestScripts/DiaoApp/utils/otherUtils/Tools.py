@@ -1,0 +1,37 @@
+#!/user/bin/env python
+# _*_ coding:utf-8 _*_
+# author: ZhaoShengYao
+# datetime: 2022/8/18 0018 9:07
+import json
+
+class Tools:
+
+    def findKey(self, target, json_data):
+        queue = [json_data]
+        result = []
+        while len(queue) > 0:
+            data = queue.pop()
+            for key, value in data.items():
+                if key == target:
+                    result.append(value)
+                elif type(value) == dict:
+                    queue.append(value)
+                elif type(value) == list:
+                    for temp in value:
+                        if type(temp) == dict:
+                            queue.append(temp)
+                else:
+                    try:
+                        value_data = json.loads(value)
+                        if type(value_data) == dict:
+                            queue.append(value_data)
+                    except:
+                        continue
+        print(target)
+        print(json_data)
+        print(result)
+        return result
+if __name__ == '__main__':
+    t= Tools()
+    d = {"success":True,"pageCount":3,"totalCount":21,"pageSize":10,"pageIndex":1,"list":[{"id":"544615635143593886","mainNetNum":3,"mainNetName":"低傲","className":"fds","productName":"fds","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660981001335.jpeg\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660980960036.jpg\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p>sadasdasdasdasdas</p>\"}","price":"1.00","stockCount":"10","totalCount":"10","sellTick":1660985100,"authorName":"1231231","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659012360923.png"},{"id":"535182088493825002","mainNetNum":3,"mainNetName":"低傲","className":"S","productName":"S1","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660875907407.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660875899940.gif\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p>adasda</p>\"}","price":"1.01","stockCount":"1","totalCount":"10","sellTick":1660875887,"authorName":"ddd","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659012360923.png"},{"id":"514758603213618405","mainNetNum":3,"mainNetName":"低傲","className":"镇国之宝-孙子兵法","productName":"“镇国之宝-孙子兵法”作战篇","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1657027418281.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1657024972020.png\"],\"tags\":[],\"fbxUrl\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1657077018165.fbx\",\"fbxType\":\"config\",\"detail\":\"<p><img src=\\\"https://v2.cdwami.com:666/CMS/1/202207/img/20220705203840597.png\\\"></p>\",\"fbxConfig\":\"{\\\"type\\\":\\\"sunzi\\\",\\\"three\\\":{\\\"camera\\\":{\\\"position\\\":[0,50,200]},\\\"ambient\\\":{\\\"power\\\":0.3},\\\"pointLight\\\":{\\\"power\\\":0.25}},\\\"object\\\":{\\\"scale\\\":[0.25,0.25,0.25]}}\"}","price":"68.00","stockCount":"1899","totalCount":"1899","sellTick":1660133280,"authorName":"山东由礼文化科技有限公司","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1657097055658.jpg"},{"id":"584989005495093992","mainNetNum":3,"mainNetName":"低傲","className":"元宇宙数字人","productName":"元宇宙数字人盲盒","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660045138942.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660045132647.jpg\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p><img src=\\\"https://v2.cdwami.com:666/CMS/9/202208/img/20220809193906194.jpg\\\"></p>\"}","price":"99.00","stockCount":"4846","totalCount":"4888","sellTick":1660102710,"authorName":"低傲","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659012360923.png"},{"id":"523876985427972727","mainNetNum":3,"mainNetName":"低傲","className":"优先","productName":"优先4","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660052786910.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660052782552.jpeg\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p>12312</p>\"}","price":"4.00","stockCount":"1000","totalCount":"1000","sellTick":1660053001,"authorName":"wewf","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659012360923.png"},{"id":"594106908780693790","mainNetNum":3,"mainNetName":"低傲","className":"提前","productName":"再次提前30","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660051935319.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660051930628.png\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p>123</p>\"}","price":"3.00","stockCount":"1000","totalCount":"1000","sellTick":1660052040,"authorName":"1241245","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659012360923.png"},{"id":"500049125545107748","mainNetNum":3,"mainNetName":"低傲","className":"提前","productName":"提前30","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660050796944.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660050792427.jpg\"],\"tags\":[\"412312\"],\"fbxUrl\":\"\",\"detail\":\"<p>1234132</p>\"}","price":"2.00","stockCount":"1000","totalCount":"1000","sellTick":1660050960,"authorName":"12412","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659012360923.png"},{"id":"563871938458812550","mainNetNum":3,"mainNetName":"低傲","className":"优先购","productName":"优先购3，不限量购其他","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660049120889.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1660049112965.jpg\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p>111</p>\"}","price":"1.00","stockCount":"1000","totalCount":"1000","sellTick":1660049760,"authorName":"dd","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659012360923.png"},{"id":"509885923086417628","mainNetNum":3,"mainNetName":"低傲","className":"宝箱","productName":"宝石SSR","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659022569943.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659022564048.jpg\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p><img src=\\\"https://v2.cdwami.com:666/CMS/1/202207/img/20220728233913699.jpg\\\"></p>\"}","price":"0.00","stockCount":"10000","totalCount":"0","sellTick":1659801600,"authorName":"低傲","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659018755449.png"},{"id":"521921311527694903","mainNetNum":3,"mainNetName":"低傲","className":"测试","productName":"测试优先购","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1659703496647.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1659703491268.jpg\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p>1232112</p>\"}","price":"50.00","stockCount":"95","totalCount":"100","sellTick":1659705600,"authorName":"daad","authorImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659012360923.png"}],"msg":"","code":"","data":None}
+    print(t.findKey("id", d))

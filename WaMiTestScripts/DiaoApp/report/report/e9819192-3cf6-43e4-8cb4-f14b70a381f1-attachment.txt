@@ -1,0 +1,17 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第19条用例======================================>>
+测试标题: 余额支付是否成功
+请求方式: post
+请求头:   {'accesstoken': '5ceaedeaa1cf7a778241344688e0c50f', 'timespan': '1660816363', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DDB061DB08A2044CBA1B5F520F38081D10B4F625603662E02A2AEA7053B8BBA7211E7E2FAB668575B92FE968A4EA9F3227A6496BEF012D4236CE199BCF45E32D98'}
+请求路径: http://110.80.137.11:8051/Payment/OrderPayment
+传参方式： params
+请求内容: {"orderid": "None", "ordertype": "TAUCTION", "paytype": "1", "selfreturn": ""}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"订单不存在","code":"","data":null}
+接口响应时长: 0.110919 s
+Http状态码: 200
+断言方式：相等
+期望结果：True
+实际结果：[True]
+>>==============================第19条用例执行完毕=======================================>>
+INFO     root:test_httpRun.py:28 测试结果保存完毕，路径为：D:\MyPython\WaMiTestScripts\DiaoApp\report\reportData

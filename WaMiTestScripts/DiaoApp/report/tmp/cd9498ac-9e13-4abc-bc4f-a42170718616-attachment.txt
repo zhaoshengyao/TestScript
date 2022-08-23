@@ -1,0 +1,18 @@
+ERROR    root:test_httpRun.py:152 assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第8条用例======================================>>
+测试标题: 获取拍卖列表
+请求方式: post
+请求头:   {'accesstoken': '17b471073252f2cc3790c054591aaf18', 'timespan': '1660615538', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DDB061DB08A2044CBA1B5F520F38081D10CF199D4E77D99687CFB680B1D9A3355FF2893C605D2169C63AD2006BF4D0376A65216A7347299E18C4316C245BFF62B6'}
+请求路径: http://110.80.137.11:8051/auction/PageList
+传参方式： json
+请求内容: {"platFormId":"3","source":0,"pageSize":10,"pageIndex":1,"order":1,"searchParm":""}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-dfaabac733a49cbdaaa6e394ad59724d-609a2b5f6c17b6a3-00","errors":{"pid":["The pid field is required."]}}
+接口响应时长: 0.081352 s
+Http状态码: 400
+断言方式：相等
+期望结果：True
+实际结果：{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'One or more validation errors occurred.', 'status': 400, 'traceId': '00-dfaabac733a49cbdaaa6e394ad59724d-609a2b5f6c17b6a3-00', 'errors': {'pid': ['The pid field is required.']}}
+>>==============================第8条用例执行完毕=======================================>>

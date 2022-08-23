@@ -1,0 +1,18 @@
+ERROR    root:test_httpRun.py:183 assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第11条用例======================================>>
+测试标题: 竞拍报名不填地址是否失败
+请求方式: post
+请求头:   {'accesstoken': '95d92945459fc8a2075001f84e2f1101', 'timespan': '1660812435', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DDB061DB08A2044CBA1B5F520F38081D1018FCB83C42BF466041CD87EC31A6CFD67381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8051/auction/SignUp
+传参方式： params
+请求内容: {"auctionid": "572241145648425516", "mainNetName": "\u6570\u5143meta", "receiveaddr": "", "receivemark": ""}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-349bf36c1368f416776360332031e442-a91a4eab658a9185-00","errors":{"receiveaddr":["The receiveaddr field is required."]}}
+接口响应时长: 0.0805 s
+Http状态码: 400
+断言方式：相等
+期望结果：False
+实际结果：{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'One or more validation errors occurred.', 'status': 400, 'traceId': '00-349bf36c1368f416776360332031e442-a91a4eab658a9185-00', 'errors': {'receiveaddr': ['The receiveaddr field is required.']}}
+>>==============================第11条用例执行完毕=======================================>>

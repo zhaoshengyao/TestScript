@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第4条用例======================================>>
+测试标题: 获取藏品详情是否成功
+请求方式: post
+请求头:   {'accesstoken': '0c41246a488f2b4d648c6146dfbb32b8', 'timespan': '1660812873', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DDB061DB08A2044CBA1B5F520F38081D10592627FA9D76013D13F9BC3CF42EF5971E7E2FAB668575B92FE968A4EA9F3227A6496BEF012D4236CE199BCF45E32D98'}
+请求路径: http://110.80.137.11:8051/auction/detail
+传参方式： params
+请求内容: {"id": "572241145648425516", "addviewcount": 1}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"OK","code":"","data":{"uid":"409812845962723329","priceCutCount":0,"specifiedPrice":"5.00","securityDeposit":"19.00","dealPrice":"0.00","dealTick":0,"signUpCount":0,"viewCount":2,"tokenNum":"","delayTick":0,"isFocus":0,"realIncome":"0.00","topaySignUpOrder":"","otherPhone":"","payCountDown":0,"otherAddress":null,"otherMark":null,"id":"572241145648425516","num":"","dataStatus":2,"auctionType":1,"auctionStartTick":1660095536,"auctionTick":2145888000,"endTick":2145888127,"startPrice":21.00,"maxPrice":188.00,"nowPrice":21.00,"auctionGoods":{"id":"587390722951693412","cid":"0","classInfo":"","goodsType":"0","mainNetNum":10021,"mainNetName":"数元meta","contractAddr":"0","goodsKey":"","goodsName":"BAIBAI","goodsInfo":"{\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/D_1658562942482_aded2e74-05b3-48e9-ae2f-e3bb4bb23cf2\"]}","deliveryTick":0,"source":2,"goodsProduct":null},"goodsSource":2,"sellerBzj":100.00,"countDown":485075254,"buyerUid":"0","isInBid":"0","topuserid":null,"deliveryTime":0}}
+接口响应时长: 0.0815 s
+Http状态码: 200
+断言方式：不等于
+期望结果：0
+实际结果：[21.0]
+>>==============================第4条用例执行完毕=======================================>>

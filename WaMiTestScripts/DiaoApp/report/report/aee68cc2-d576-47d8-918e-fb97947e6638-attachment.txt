@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第4条用例======================================>>
+测试标题: 获取发行藏品详情是否成功
+请求方式: post
+请求头:   {'accesstoken': '2c85cbbe73b1ba9998f2b3d917f200fd', 'timespan': '1661154512', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DB5BFC5F1874F1C1CE0A46A2CE4D294CD77381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/miao/getProductInfo
+传参方式： params
+请求内容: {"productid": "509132582460768547"}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"OK","code":"","data":{"id":"509132582460768547","mainNetNum":3,"mainNetName":"低傲","contractAddr":"0x2005A092bFf85CC508496a66d2Dad08768d58499","className":"付庆五画作","productName":"付庆五先生画作二","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_06/D1656593151713.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_06/D1656593147210.jpg\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p><img src=\\\"https://v2.cdwami.com:666/CMS/1/202206/img/20220630204602151.jpg\\\"></p>\"}","price":"19.00","stockCount":"0","totalCount":"3199","sellTick":1656936480,"authorId":409735638338764801,"authorName":"低傲","authorHeadImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_06/D1656593121109.png","publisherName":"付庆五画作","publisherImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_06/D1656593121109.png","dataStatus":3,"buyLimitInfo":{"id":500598640403638230,"pid":509132582460768547,"limitCount":1,"maxCount":9999,"isInvite":"0","inviteUserBase":0,"inviteAddCount":0,"startTick":1656518400,"endTick":1656691200,"dataStatus":"1","createTick":1656593214,"limitDescription":"无","holdNeedList":" ","holdNeedCount":0},"canBuyCount":1,"canBuyTotalCount":1,"countDown":0,"buyBtnName":"","priorityBuyInfo":null,"priorityBuy":"1","priorityId":"","priorityTime":1800,"priorityDual":0,"toPayOrderInfo":null,"upTime":"0001-01-01T00:00:00","isMedal":"0","medalComment":null,"payCountdown":0,"userProprityCount":0,"incalendar":"1"}}
+接口响应时长: 0.231824 s
+Http状态码: 200
+断言方式：相等
+期望结果：True
+实际结果：[True]
+>>==============================第4条用例执行完毕=======================================>>

@@ -1,0 +1,18 @@
+ERROR    root:test_httpRun.py:185 assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第6条用例======================================>>
+测试标题: 余额支付是否成功
+请求方式: post
+请求头:   {'accesstoken': '25a9b18e06f40a6ccdc6a96bd721d73c', 'timespan': '1661155290', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DB07162799CACB553D593BBDDF4C62744F7381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/Payment/OrderPayment
+传参方式： params
+请求内容: {"orderid": "574467686966969564", "paytype": 1, "ordertype": "", "selfreturn": ""}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-81ff2a57f3f6c26ad5d7c4e78b45afbc-fe6bc5669514b94b-00","errors":{"ordertype":["The ordertype field is required."]}}
+接口响应时长: 0.078522 s
+Http状态码: 400
+断言方式：相等
+期望结果：True
+实际结果：{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'One or more validation errors occurred.', 'status': 400, 'traceId': '00-81ff2a57f3f6c26ad5d7c4e78b45afbc-fe6bc5669514b94b-00', 'errors': {'ordertype': ['The ordertype field is required.']}}
+>>==============================第6条用例执行完毕=======================================>>

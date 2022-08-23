@@ -1,0 +1,25 @@
+ERROR    root:test_httpRun.py:152 assert 400 == 200
+  +400
+  -200
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第5条用例======================================>>
+测试标题: 账号为空，登录失败
+请求方式: post
+请求头:   {'accesstoken': 'b8f6148a0d85fd42bba7caaa53963103', 'timespan': '1658998402'}
+请求路径: http://110.80.137.11:8051/Users/Login_UserName
+传参方式： params
+请求内容: {
+                "phone": "",
+                "username":"",
+                "password": "QTEyMzQ2ag==",
+                "code": "",
+                "invitecode": ""
+            }
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-50963158a5f3dbd4a4906d0898957633-f9175d3db400046d-00","errors":{"username":["The username field is required."]}}
+接口响应时长: 0.079777 s
+Http状态码: 400
+断言方式：相等
+期望结果：False
+实际结果：{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'One or more validation errors occurred.', 'status': 400, 'traceId': '00-50963158a5f3dbd4a4906d0898957633-f9175d3db400046d-00', 'errors': {'username': ['The username field is required.']}}
+>>==============================第5条用例执行完毕=======================================>>

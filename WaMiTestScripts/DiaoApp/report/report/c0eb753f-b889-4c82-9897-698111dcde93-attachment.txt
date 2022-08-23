@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第4条用例======================================>>
+测试标题: 获取发行藏品详情是否成功
+请求方式: post
+请求头:   {'accesstoken': '4332fd21b751daba19b51bf487b86fc3', 'timespan': '1661155465', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DB0E68ED8D18DEA0CF9AA1DBEEDDD7A5D07381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/miao/getProductInfo
+传参方式： params
+请求内容: {"productid": "564712755101491016"}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"OK","code":"","data":{"id":"564712755101491016","mainNetNum":3,"mainNetName":"低傲","contractAddr":"0x52089b6A6AA4ccDfA1a8b869Ad0F1c0a7Cf6B4B2","className":"万安博物馆藏系列","productName":"青釉人物纹罐","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1658917409385.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1658917399479.jpg\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p><img src=\\\"https://v2.cdwami.com:666/CMS/1/202207/img/20220727182337742.jpg\\\"></p>\"}","price":"59.00","stockCount":"0","totalCount":"2000","sellTick":1659442080,"authorId":409735638338764801,"authorName":"低傲","authorHeadImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1658917358128.png","publisherName":"低傲","publisherImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1658917358128.png","dataStatus":3,"buyLimitInfo":{"id":532542077063548158,"pid":564712755101491016,"limitCount":1,"maxCount":2000,"isInvite":"0","inviteUserBase":0,"inviteAddCount":0,"startTick":1658851200,"endTick":1659456000,"dataStatus":"1","createTick":1658917439,"limitDescription":"无","holdNeedList":"","holdNeedCount":0},"canBuyCount":1,"canBuyTotalCount":1,"countDown":0,"buyBtnName":"","priorityBuyInfo":null,"priorityBuy":"1","priorityId":"","priorityTime":1800,"priorityDual":0,"toPayOrderInfo":null,"upTime":"0001-01-01T00:00:00","isMedal":"0","medalComment":null,"payCountdown":0,"userProprityCount":0,"incalendar":"1"}}
+接口响应时长: 0.19266 s
+Http状态码: 200
+断言方式：相等
+期望结果：True
+实际结果：[True]
+>>==============================第4条用例执行完毕=======================================>>

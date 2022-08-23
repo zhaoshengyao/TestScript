@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第4条用例======================================>>
+测试标题: 获取发行藏品详情是否成功
+请求方式: post
+请求头:   {'accesstoken': 'ca167df5d949ec9ccbc5af65eb6bd9d3', 'timespan': '1661155059', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DB848C78521F66C7D2999B33AD8F75B1817381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/miao/getProductInfo
+传参方式： params
+请求内容: {"productid": "583337686275733527"}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"OK","code":"","data":{"id":"583337686275733527","mainNetNum":3,"mainNetName":"低傲","contractAddr":"0x9D64256916a73Aab6166E0ccD6f39145eDA97F44","className":"节日盲盒","productName":"节日盲盒-无锁","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1657029804565.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1657029799748.jpg\"],\"tags\":[],\"fbxUrl\":\"\",\"detail\":\"<p><img src=\\\"https://v2.cdwami.com:666/CMS/1/202207/img/20220705220350140.png\\\"></p>\"}","price":"9.90","stockCount":"0","totalCount":"100000","sellTick":1657080000,"authorId":409735638338764801,"authorName":"低傲","authorHeadImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1656988400930.png","publisherName":"低傲","publisherImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1656988400930.png","dataStatus":3,"buyLimitInfo":{"id":567006424507580749,"pid":583337686275733527,"limitCount":50000,"maxCount":50000,"isInvite":"0","inviteUserBase":0,"inviteAddCount":0,"startTick":1656950400,"endTick":1659024000,"dataStatus":"1","createTick":1656988458,"limitDescription":"无","holdNeedList":" ","holdNeedCount":0},"canBuyCount":50000,"canBuyTotalCount":50000,"countDown":0,"buyBtnName":"","priorityBuyInfo":null,"priorityBuy":"1","priorityId":"","priorityTime":1800,"priorityDual":0,"toPayOrderInfo":null,"upTime":"0001-01-01T00:00:00","isMedal":"0","medalComment":null,"payCountdown":0,"userProprityCount":0,"incalendar":"1"}}
+接口响应时长: 0.124252 s
+Http状态码: 200
+断言方式：相等
+期望结果：True
+实际结果：[True]
+>>==============================第4条用例执行完毕=======================================>>

@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第4条用例======================================>>
+测试标题: 获取发行藏品详情是否成功
+请求方式: post
+请求头:   {'accesstoken': 'fe8acfbf714e9af2e4e801bd8d369ad5', 'timespan': '1661155285', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DB07162799CACB553D593BBDDF4C62744F7381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/miao/getProductInfo
+传参方式： params
+请求内容: {"productid": "576133939571167355"}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"OK","code":"","data":{"id":"576133939571167355","mainNetNum":3,"mainNetName":"低傲","contractAddr":"0x062d6BCcd50Eb7ba31E99DB6fdBb238c5834e81E","className":"热血军魂·陆战之王系列","productName":"99A式主战坦克","productInfo":"{\"video\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1659605481039.mp4\",\"images\":[\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1659605425867.jpg\"],\"tags\":[],\"fbxUrl\":\"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_08/D1659606404572.fbx\",\"detail\":\"<p><img src=\\\"https://v2.cdwami.com:666/CMS/1/202208/img/20220804213959811.jpg\\\"></p>\",\"fbxConfig\":\"{\\\"type\\\":\\\"99A\\\",\\\"three\\\":{\\\"camera\\\":{\\\"position\\\":[-400,200,200]},\\\"pointLight\\\":{\\\"power\\\":0.3}},\\\"object\\\":{\\\"scale\\\":[0.008,0.008,0.008]}}\",\"fbxType\":\"config\"}","price":"0.00","stockCount":"0","totalCount":"500","sellTick":1659960000,"authorId":409735638338764801,"authorName":"低傲","authorHeadImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659012360923.png","publisherName":"低傲","publisherImg":"https://wm-auction-1.oss-cn-beijing.aliyuncs.com/2022_07/D1659012360923.png","dataStatus":3,"buyLimitInfo":{"id":544492728402934412,"pid":576133939571167355,"limitCount":1,"maxCount":0,"isInvite":"0","inviteUserBase":0,"inviteAddCount":0,"startTick":1659542400,"endTick":1660147200,"dataStatus":"1","createTick":1659605556,"limitDescription":"无","holdNeedList":"","holdNeedCount":0},"canBuyCount":1,"canBuyTotalCount":1,"countDown":0,"buyBtnName":"","priorityBuyInfo":null,"priorityBuy":"1","priorityId":"","priorityTime":1800,"priorityDual":0,"toPayOrderInfo":null,"upTime":"0001-01-01T00:00:00","isMedal":"0","medalComment":null,"payCountdown":0,"userProprityCount":0,"incalendar":"1"}}
+接口响应时长: 0.152496 s
+Http状态码: 200
+断言方式：相等
+期望结果：True
+实际结果：[True]
+>>==============================第4条用例执行完毕=======================================>>

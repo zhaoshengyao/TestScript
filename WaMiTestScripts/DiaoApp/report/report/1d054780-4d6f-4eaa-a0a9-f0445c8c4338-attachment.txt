@@ -1,0 +1,18 @@
+ERROR    root:test_httpRun.py:185 assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第27条用例======================================>>
+测试标题: 一口价购买时地址为空是否购买失败
+请求方式: post
+请求头:   {'accesstoken': 'e59fad1d0497e5134e168518d51ca668', 'timespan': '1661138345', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DB22D648E8E5B29660D2E9BD0C6FF9EAFE7381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/auction/MaxPriceBuy
+传参方式： params
+请求内容: {"auctionid": "598195827137757999", "mainNetName": "\u4f4e\u50b2", "receiveaddr": "", "receivemark": ""}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"type":"https://tools.ietf.org/html/rfc7231#section-6.5.1","title":"One or more validation errors occurred.","status":400,"traceId":"00-75c7a53d2ee7a04505028ba416f24218-dc0c8cff361f5d4d-00","errors":{"receiveaddr":["The receiveaddr field is required."],"receivemark":["The receivemark field is required."]}}
+接口响应时长: 0.078823 s
+Http状态码: 400
+断言方式：相等
+期望结果：False
+实际结果：{'type': 'https://tools.ietf.org/html/rfc7231#section-6.5.1', 'title': 'One or more validation errors occurred.', 'status': 400, 'traceId': '00-75c7a53d2ee7a04505028ba416f24218-dc0c8cff361f5d4d-00', 'errors': {'receiveaddr': ['The receiveaddr field is required.'], 'receivemark': ['The receivemark field is required.']}}
+>>==============================第27条用例执行完毕=======================================>>

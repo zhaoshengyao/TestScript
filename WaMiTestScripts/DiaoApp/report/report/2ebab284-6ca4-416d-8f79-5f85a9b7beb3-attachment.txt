@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第6条用例======================================>>
+测试标题: 余额支付是否成功
+请求方式: post
+请求头:   {'accesstoken': '4ed5e9429679435932c8f2fa26eb5a99', 'timespan': '1661155470', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DB0E68ED8D18DEA0CF9AA1DBEEDDD7A5D07381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/Payment/OrderPayment
+传参方式： params
+请求内容: {"orderid": "535948379024800904", "paytype": 1, "ordertype": "TORDER", "selfreturn": ""}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"支付成功","code":"","data":null}
+接口响应时长: 0.760534 s
+Http状态码: 200
+断言方式：相等
+期望结果：True
+实际结果：[True]
+>>==============================第6条用例执行完毕=======================================>>

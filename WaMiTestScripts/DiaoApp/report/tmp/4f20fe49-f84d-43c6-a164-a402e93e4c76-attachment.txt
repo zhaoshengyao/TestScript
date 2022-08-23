@@ -1,0 +1,22 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第1条用例======================================>>
+测试标题: 账号密码正确，登录成功
+请求方式: post
+请求头:   {'accesstoken': '97b994e15a950817319b1ef9e1548b69', 'timespan': '1660615537'}
+请求路径: http://110.80.137.11:8051/Users/Login_UserName
+传参方式： params
+请求内容: {
+                "phone": "",
+                "username":18190335520,
+                "password": "QTEyMzQ1Ng==",
+                "code": "",
+                "invitecode": ""
+            }
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"登录成功","code":"86AF2DC047BB1C1853DA37D4486B24DDB061DB08A2044CBA1B5F520F38081D10CF199D4E77D99687CFB680B1D9A3355FF2893C605D2169C63AD2006BF4D0376A65216A7347299E18C4316C245BFF62B6","data":{"uid":"409812845962723329","username":"18190335520","mail":"","phone":"18190335520","nickname":"大哥","parentid":0,"invpath":"","createtime":"2022-05-29T12:04:51+08:00","pwd":"1","state":"1","invitecode":"4812845962723329","alipayId":"863758206@qq.com","wxid":"","ncount":32,"headpicurl":"default://7","verifystate":"1","verifytime":"2022-08-16T10:05:37.0545885+08:00","inviteverifycount":22,"lockTime":null,"balance":"1000275.00","balance_bzj":"100000.00","balancelocked":"200.00","verstate":"0","realname":"","card_no":"","paypwd":"1","autopay":"0","inwhitelist":0,"trademsg":"1"}}
+接口响应时长: 0.225054 s
+Http状态码: 200
+断言方式：相等
+期望结果：True
+实际结果：[True]
+>>==============================第1条用例执行完毕=======================================>>

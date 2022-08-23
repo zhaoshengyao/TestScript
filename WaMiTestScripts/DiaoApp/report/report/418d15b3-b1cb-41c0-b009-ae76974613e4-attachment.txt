@@ -1,0 +1,21 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第1条用例======================================>>
+测试标题: 账号密码正确，登录成功
+请求方式: post
+请求头:   {'accesstoken': '15f696866bdc73a1ed9be6006f362b88', 'timespan': '1660813431'}
+请求路径: http://110.80.137.11:8051/Users/Login_UserName
+传参方式： params
+请求内容: {
+                "phone": "",
+                "username":13300010001,
+                "password": "YWExMTEx",
+                "code": ""
+            }
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":true,"msg":"登录成功","code":"86AF2DC047BB1C1853DA37D4486B24DDB061DB08A2044CBA1B5F520F38081D10E9F963A6BE9861915D8BDDA9DFDA351E1E7E2FAB668575B92FE968A4EA9F3227A6496BEF012D4236CE199BCF45E32D98","data":{"uid":"535616226000398313","username":"13300010001","mail":"","phone":"13300010001","nickname":"852745990","parentid":409982605602062437,"invpath":"","createtime":"2022-08-08T15:19:51+08:00","pwd":"1","state":"1","invitecode":"852745990","alipayId":"","wxid":"","ncount":0,"headpicurl":"","verifystate":"1","verifytime":"2022-08-18T17:03:52.0888616+08:00","inviteverifycount":0,"lockTime":null,"balance":"997697.10","balance_bzj":"0.00","balancelocked":"205.00","verstate":"0","realname":"","card_no":"","paypwd":"1","autopay":"0","inwhitelist":0,"trademsg":"0"}}
+接口响应时长: 0.189485 s
+Http状态码: 200
+断言方式：相等
+期望结果：True
+实际结果：[True]
+>>==============================第1条用例执行完毕=======================================>>

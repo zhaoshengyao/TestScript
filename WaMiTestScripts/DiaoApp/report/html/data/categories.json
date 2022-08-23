@@ -1,0 +1,106 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False != False\n +  where False = <model.http_model.http_model object at 0x00000177A0D78DF0>.assert_value",
+      "children" : [ {
+        "name" : "密码错误，登录失败",
+        "uid" : "6499b3f140ae82d2",
+        "parentUid" : "3cfc20b54d03a7790c13b38c49f0fd4b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658998402297,
+          "stop" : 1658998402380,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78DF0>" ]
+      } ],
+      "uid" : "3cfc20b54d03a7790c13b38c49f0fd4b"
+    }, {
+      "name" : "AssertionError: assert 400 == 200\n  +400\n  -200",
+      "children" : [ {
+        "name" : "账号、密码为空，登录失败",
+        "uid" : "93bb6abb1de03a4f",
+        "parentUid" : "93cb33d5d22503c821557334b925b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658998402645,
+          "stop" : 1658998402726,
+          "duration" : 81
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78E20>" ]
+      }, {
+        "name" : "账号为空，登录失败",
+        "uid" : "2c01121ffa7d6886",
+        "parentUid" : "93cb33d5d22503c821557334b925b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658998402736,
+          "stop" : 1658998402819,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78EB0>" ]
+      }, {
+        "name" : "密码为空，登录失败",
+        "uid" : "eb25270b9267c037",
+        "parentUid" : "93cb33d5d22503c821557334b925b7f2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658998402829,
+          "stop" : 1658998402909,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177A0D78EE0>" ]
+      } ],
+      "uid" : "93cb33d5d22503c821557334b925b7f2"
+    }, {
+      "name" : "AssertionError: assert '返回数据格式与提取格式不一致，请检查返回数据是否正确！' == 2\n  +'返回数据格式与提取格式不一致，请检查返回数据是否正确！'\n  -2",
+      "children" : [ {
+        "name" : "搜索存在的商品",
+        "uid" : "7cdf57f5e4e83e14",
+        "parentUid" : "4722041d36ee2f8b2412dc6180cc9b85",
+        "status" : "failed",
+        "time" : {
+          "start" : 1658998403118,
+          "stop" : 1658998403202,
+          "duration" : 84
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "<model.http_model.http_model object at 0x00000177917C2C40>" ]
+      } ],
+      "uid" : "4722041d36ee2f8b2412dc6180cc9b85"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

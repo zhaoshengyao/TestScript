@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第10条用例======================================>>
+测试标题: 竞拍报名前一口价购买是否失败
+请求方式: post
+请求头:   {'accesstoken': 'eccaf396286d9500f9902c21a898e12a', 'timespan': '1661138071', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DBDEF54E29D5C9FB53F864CE5ECC5A1B987381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/auction/MaxPriceBuy
+传参方式： params
+请求内容: {"auctionid": "502328996636346379", "mainNetName": "\u4f4e\u50b2", "receiveaddr": "asd", "receivemark": "asddddda"}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":false,"msg":"您必须报名后才能进行一口价出价","code":"","data":null}
+接口响应时长: 0.079953 s
+Http状态码: 200
+断言方式：相等
+期望结果：False
+实际结果：[False]
+>>==============================第10条用例执行完毕=======================================>>

@@ -1,0 +1,51 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Jul 28 16:53:22 CST 2022","Thu Jul 28 16:53:22 CST 2022","83","case","test_httpRun","Test_case","","","账号为空，登录失败","
+        :model:传入的数据对象
+        :param kwargs:
+        :return:
+        "
+"passed","Thu Jul 28 16:53:22 CST 2022","Thu Jul 28 16:53:22 CST 2022","133","case","test_httpRun","Test_case","","","账号密码正确，登录成功","
+        :model:传入的数据对象
+        :param kwargs:
+        :return:
+        "
+"passed","Thu Jul 28 16:53:22 CST 2022","Thu Jul 28 16:53:23 CST 2022","107","case","test_httpRun","Test_case","","","查看我的商品","
+        :model:传入的数据对象
+        :param kwargs:
+        :return:
+        "
+"failed","Thu Jul 28 16:53:22 CST 2022","Thu Jul 28 16:53:22 CST 2022","80","case","test_httpRun","Test_case","","","密码为空，登录失败","
+        :model:传入的数据对象
+        :param kwargs:
+        :return:
+        "
+"passed","Thu Jul 28 16:53:23 CST 2022","Thu Jul 28 16:53:23 CST 2022","87","case","test_httpRun","Test_case","","","获取拍卖列表","
+        :model:传入的数据对象
+        :param kwargs:
+        :return:
+        "
+"failed","Thu Jul 28 16:53:23 CST 2022","Thu Jul 28 16:53:23 CST 2022","84","case","test_httpRun","Test_case","","","搜索存在的商品","
+        :model:传入的数据对象
+        :param kwargs:
+        :return:
+        "
+"passed","Thu Jul 28 16:53:23 CST 2022","Thu Jul 28 16:53:23 CST 2022","85","case","test_httpRun","Test_case","","","搜索不存在的商品","
+        :model:传入的数据对象
+        :param kwargs:
+        :return:
+        "
+"failed","Thu Jul 28 16:53:22 CST 2022","Thu Jul 28 16:53:22 CST 2022","81","case","test_httpRun","Test_case","","","账号、密码为空，登录失败","
+        :model:传入的数据对象
+        :param kwargs:
+        :return:
+        "
+"failed","Thu Jul 28 16:53:22 CST 2022","Thu Jul 28 16:53:22 CST 2022","83","case","test_httpRun","Test_case","","","密码错误，登录失败","
+        :model:传入的数据对象
+        :param kwargs:
+        :return:
+        "
+"passed","Thu Jul 28 16:53:22 CST 2022","Thu Jul 28 16:53:22 CST 2022","87","case","test_httpRun","Test_case","","","账号不存在，登录失败","
+        :model:传入的数据对象
+        :param kwargs:
+        :return:
+        "

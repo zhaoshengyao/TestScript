@@ -1,0 +1,16 @@
+INFO     root:logDecoratorl.py:39 
+>>===============================正在执行第23条用例======================================>>
+测试标题: 竞拍报名不填平台是否失败
+请求方式: post
+请求头:   {'accesstoken': '30e0f57a65141b3994db8cabce142852', 'timespan': '1661138336', 'TOKEN': '86AF2DC047BB1C1853DA37D4486B24DD8148D45D3915D46FB6746CD2110752DB22D648E8E5B29660D2E9BD0C6FF9EAFE7381CC53D7C7934D626CB9003E6BBE4345008A158FE66B77D46CB9CB369464CC'}
+请求路径: http://110.80.137.11:8059/auction/SignUp
+传参方式： params
+请求内容: {"auctionid": "598195827137757999", "mainNetName": "", "receiveaddr": "asddd", "receivemark": "asddddda"}
+依赖测试用例: 暂无依赖用例数据
+接口响应内容: {"success":false,"msg":"当前用户已报名","code":"-1","data":null}
+接口响应时长: 0.080432 s
+Http状态码: 200
+断言方式：相等
+期望结果：False
+实际结果：[False]
+>>==============================第23条用例执行完毕=======================================>>
